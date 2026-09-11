@@ -1,4 +1,4 @@
-# Al Tahani Driving School
+# Al Medan Driving School
 
 A multi-page Bootstrap driving school website (based on the "Drivin" HTML Codex template), with pages for Home, About, Courses, Team, Testimonials, Appointment, and Contact.
 
