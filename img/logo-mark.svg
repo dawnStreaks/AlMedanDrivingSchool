@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Al Medan Driving School">
+  <circle cx="32" cy="32" r="32" fill="#172b28"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#f7f5ef" stroke-width="3"/>
+  <path d="M32 9 V22 M14.4 41.5 L24 35.5 M49.6 41.5 L40 35.5" stroke="#f7f5ef" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="7.5" fill="#b94230" stroke="#f7f5ef" stroke-width="2"/>
+</svg>
