@@ -1,6 +1,6 @@
 # Al Tahani Driving School
 
-A responsive Bootstrap 5 landing-page template for a Kuwait driving school. The layout is inspired by the information architecture of [altahanidrivingschool.com](https://altahanidrivingschool.com) and uses original copy and styling.
+A multi-page Bootstrap driving school website (based on the "Drivin" HTML Codex template), with pages for Home, About, Courses, Team, Testimonials, Appointment, and Contact.
 
 ## Run locally
 
@@ -16,4 +16,4 @@ Then visit `http://localhost:8000`.
 
 Push this folder to a public GitHub repository and enable **Settings > Pages > Deploy from a branch**. Select the `main` branch and `/ (root)` folder.
 
-The template uses Bootstrap, Google Fonts, and Unsplash images through public CDNs. Replace the image URLs and contact details in `index.html` before production use.
+The site is fully static (HTML/CSS/JS, local assets and libraries) and requires no server-side code.
