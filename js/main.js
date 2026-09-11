@@ -24,7 +24,7 @@
                 var label = form.querySelector('label[for="' + field.id + '"]');
                 if (field.value.trim()) lines.push((label ? label.textContent : field.id) + ': ' + field.value.trim());
             });
-            window.location.assign('https://wa.me/96550554492?text=' + encodeURIComponent(lines.join('\n')));
+            window.location.assign('https://wa.me/96560966155?text=' + encodeURIComponent(lines.join('\n')));
         });
     });
     if (window.jQuery && window.jQuery.fn.owlCarousel) {
