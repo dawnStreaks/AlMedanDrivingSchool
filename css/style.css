@@ -101,6 +101,37 @@
     height: 80px
 }
 
+@media (max-width: 991.98px) {
+    .topbar-row > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px 20px;
+        padding: 7px 16px !important;
+        text-align: center !important;
+    }
+
+    .topbar-row > div + div {
+        padding-top: 0 !important;
+    }
+
+    .topbar-row .me-4 {
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .topbar-row {
+        font-size: 12px;
+    }
+
+    .topbar-row > div {
+        gap: 4px 14px;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
