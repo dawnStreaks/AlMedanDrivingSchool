@@ -121,49 +121,54 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-1.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4">Mr. Ali gave me a clear idea of everything I needed to know and was always ready to repeat the lesson.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-2.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4">The training was calm and practical. I recommend Al Medan to anyone starting their driving journey.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-3.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <p class="fs-4">Good lessons, flexible timing and helpful guidance for the signal and driving test.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
+                    <div class="owl-carousel testimonial-carousel" data-reviews-src="data/reviews.json" aria-live="polite">
+                        <p class="text-center">Loading reviews…</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
+
+    <!-- Review Form Start -->
+    <section class="review-section py-6" aria-labelledby="review-form-title">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="review-form-card">
+                        <p class="eyebrow">SHARE YOUR EXPERIENCE</p>
+                        <h2 class="display-6 mb-3" id="review-form-title">Leave a review</h2>
+                        <p class="mb-4">Your review will be checked before it is published on this page.</p>
+                        <!-- Replace YOUR_FORM_ID with the ID supplied by Formspree. -->
+                        <form class="review-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                            <fieldset class="mb-4">
+                                <legend class="review-label">Your overall rating</legend>
+                                <div class="star-rating">
+                                    <input type="radio" id="rating-5" name="rating" value="5" required><label for="rating-5" title="5 stars"><span class="visually-hidden">5 stars</span>★</label>
+                                    <input type="radio" id="rating-4" name="rating" value="4"><label for="rating-4" title="4 stars"><span class="visually-hidden">4 stars</span>★</label>
+                                    <input type="radio" id="rating-3" name="rating" value="3"><label for="rating-3" title="3 stars"><span class="visually-hidden">3 stars</span>★</label>
+                                    <input type="radio" id="rating-2" name="rating" value="2"><label for="rating-2" title="2 stars"><span class="visually-hidden">2 stars</span>★</label>
+                                    <input type="radio" id="rating-1" name="rating" value="1"><label for="rating-1" title="1 star"><span class="visually-hidden">1 star</span>★</label>
+                                </div>
+                            </fieldset>
+                            <div class="mb-4">
+                                <label class="review-label" for="review-message">Your review</label>
+                                <textarea class="form-control" id="review-message" name="review" rows="5" maxlength="1000" placeholder="Please leave your review" required></textarea>
+                            </div>
+                            <div class="mb-4">
+                                <label class="review-label" for="review-name">Your name</label>
+                                <input class="form-control" id="review-name" name="name" type="text" maxlength="100" autocomplete="name" placeholder="Tell us your name" required>
+                            </div>
+                            <input type="hidden" name="_subject" value="New Al Medan website review">
+                            <input class="review-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+                            <button class="btn btn-primary" type="submit">Submit review</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review Form End -->
 
 
     </main>

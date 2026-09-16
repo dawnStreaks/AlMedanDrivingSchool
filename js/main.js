@@ -27,7 +27,62 @@
             window.location.assign('https://wa.me/96560966155?text=' + encodeURIComponent(lines.join('\n')));
         });
     });
-    if (window.jQuery && window.jQuery.fn.owlCarousel) {
-        window.jQuery('.testimonial-carousel').owlCarousel({ autoplay: false, smartSpeed: reducedMotion ? 0 : 400, items: 1, dots: true, loop: false });
+    function initializeReviewCarousel(carousel) {
+        if (window.jQuery && window.jQuery.fn.owlCarousel) {
+            window.jQuery(carousel).owlCarousel({ autoplay: false, smartSpeed: reducedMotion ? 0 : 400, items: 1, dots: true, loop: false });
+        }
     }
+
+    function createReviewItem(review) {
+        var item = document.createElement('article');
+        item.className = 'testimonial-item review-card text-center';
+
+        var quote = document.createElement('i');
+        quote.className = 'fa fa-quote-left fa-2x text-primary mb-3';
+        quote.setAttribute('aria-hidden', 'true');
+
+        var stars = document.createElement('div');
+        stars.className = 'review-stars mb-3';
+        var rating = Math.max(1, Math.min(5, Number(review.rating) || 5));
+        stars.textContent = '★'.repeat(rating) + '☆'.repeat(5 - rating);
+        stars.setAttribute('aria-label', rating + ' out of 5 stars');
+
+        var message = document.createElement('p');
+        message.className = 'fs-4';
+        message.textContent = review.review || '';
+
+        var divider = document.createElement('hr');
+        divider.className = 'w-25 mx-auto';
+
+        var name = document.createElement('h5');
+        name.textContent = review.name || 'Al Medan student';
+
+        item.append(quote, stars, message, divider, name);
+        return item;
+    }
+
+    document.querySelectorAll('.testimonial-carousel').forEach(function (carousel) {
+        var source = carousel.getAttribute('data-reviews-src');
+        if (!source) {
+            initializeReviewCarousel(carousel);
+            return;
+        }
+
+        fetch(source)
+            .then(function (response) {
+                if (!response.ok) throw new Error('Could not load reviews');
+                return response.json();
+            })
+            .then(function (reviews) {
+                carousel.replaceChildren();
+                reviews.forEach(function (review) {
+                    carousel.appendChild(createReviewItem(review));
+                });
+                if (reviews.length) initializeReviewCarousel(carousel);
+                else carousel.textContent = 'No reviews have been published yet.';
+            })
+            .catch(function () {
+                carousel.textContent = 'Reviews could not be loaded right now.';
+            });
+    });
 })();
