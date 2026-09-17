@@ -144,15 +144,32 @@
         padding: 4px 10px;
     }
 
+    .topbar-call,
     .topbar-whatsapp {
         display: inline-flex;
         align-items: center;
         gap: 7px;
         border-radius: 6px;
-        background: #25d366;
-        color: #102c28;
         font-weight: 700;
         line-height: 1;
+    }
+
+    .topbar-call {
+        border: 1px solid rgba(255, 255, 255, .65);
+        background: transparent;
+        color: #fff;
+    }
+
+    .topbar-call:hover,
+    .topbar-call:focus {
+        border-color: #fff;
+        background: #fff;
+        color: #102c28;
+    }
+
+    .topbar-whatsapp {
+        background: #25d366;
+        color: #102c28;
     }
 
     .topbar-whatsapp:hover,
