@@ -104,36 +104,71 @@
 @media (max-width: 991.98px) {
     .topbar-row {
         flex-direction: column;
+        padding: 9px 14px;
+        font-weight: 600;
     }
 
     .topbar-row > div {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         width: 100%;
-        gap: 6px 20px;
-        padding: 7px 16px !important;
+        gap: 7px 18px;
+        padding: 3px 0 !important;
         text-align: center !important;
     }
 
-    .topbar-row > div + div {
-        padding-top: 0 !important;
+    .topbar-row > div:first-child {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .topbar-row .me-4 {
+    .topbar-row > div > div {
+        width: auto;
+        height: auto !important;
+        min-height: 24px;
+        margin: 0 !important;
+        white-space: nowrap;
+    }
+
+    .topbar-row .me-4,
+    .topbar-row .mx-n2 {
         margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .topbar-row .btn {
+        height: 32px;
+        min-height: 32px;
+        margin: 0;
+        padding: 4px 10px;
+    }
+
+    .topbar-whatsapp {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        border-radius: 6px;
+        background: #25d366;
+        color: #102c28;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .topbar-whatsapp:hover,
+    .topbar-whatsapp:focus {
+        background: #20bd5a;
+        color: #102c28;
     }
 }
 
 @media (max-width: 575.98px) {
     .topbar-row {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .topbar-row > div {
-        gap: 4px 14px;
-        padding-right: 10px !important;
-        padding-left: 10px !important;
+        gap: 5px 12px;
     }
 }
 
