@@ -1,0 +1,12 @@
+name = "al-medan-reviews"
+main = "worker/index.js"
+compatibility_date = "2026-10-10"
+
+[vars]
+ALLOWED_ORIGINS = "https://dawnstreaks.github.io"
+
+[[d1_databases]]
+binding = "REVIEWS_DB"
+database_name = "al-medan-reviews"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "worker/migrations"
