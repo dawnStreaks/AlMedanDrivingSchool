@@ -39,3 +39,13 @@ Until configuration is supplied, existing reviews still display and submission i
 For local development, use the HTTP server above; JavaScript modules require HTTP rather than opening the HTML as a local file.
 
 The older `worker/` and `wrangler.toml` Cloudflare files are retained but are no longer used by the review page.
+
+## Kuwait location metadata
+
+The homepage JSON-LD lists Kuwait, all six governorates, and 143 named areas, districts, islands and housing developments. Common English spellings are recorded as `alternateName` values rather than duplicate places. `data/kuwait-areas.json` stores the grouped location list, research date and sources:
+
+- https://en.wikipedia.org/wiki/Areas_of_Kuwait
+- https://www.pahw.gov.kw/en/South-Saad-Al-Abdullah
+- https://www.pahw.gov.kw/Sabah-Al-Ahmad/
+
+This is a researched geographic list, not an exhaustive official PACI address register; individual blocks, streets and landmarks are outside its scope. Keep the homepage JSON-LD and the JSON registry synchronized when updating coverage. Service-area entries describe geographic coverage, not branch addresses. Meta descriptions remain concise instead of repeating the entire directory.

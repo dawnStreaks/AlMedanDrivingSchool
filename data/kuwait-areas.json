@@ -1,0 +1,563 @@
+{
+  "researchedOn": "2026-10-15",
+  "scope": "Named areas, districts, islands and housing developments; not individual blocks, streets or landmarks. This is a researched geographic list, not an official exhaustive PACI register.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Areas_of_Kuwait",
+    "https://www.pahw.gov.kw/en/South-Saad-Al-Abdullah",
+    "https://www.pahw.gov.kw/Sabah-Al-Ahmad/"
+  ],
+  "governorates": [
+    {
+      "name": "Capital",
+      "areas": [
+        {
+          "name": "Abdullah Al-Salem"
+        },
+        {
+          "name": "Adailiya"
+        },
+        {
+          "name": "Al-Sour Gardens"
+        },
+        {
+          "name": "Bneid Al-Gar"
+        },
+        {
+          "name": "Daiya"
+        },
+        {
+          "name": "Dasma"
+        },
+        {
+          "name": "Doha"
+        },
+        {
+          "name": "Doha Port"
+        },
+        {
+          "name": "Faiha"
+        },
+        {
+          "name": "Failaka Island"
+        },
+        {
+          "name": "Granada",
+          "alternateName": [
+            "Ghornata"
+          ]
+        },
+        {
+          "name": "Jibla",
+          "alternateName": [
+            "Qibla"
+          ]
+        },
+        {
+          "name": "Kaifan"
+        },
+        {
+          "name": "Khaldiya"
+        },
+        {
+          "name": "Mansouriya"
+        },
+        {
+          "name": "Mirqab"
+        },
+        {
+          "name": "Nahdha"
+        },
+        {
+          "name": "North West Sulaibikhat"
+        },
+        {
+          "name": "Nuzha"
+        },
+        {
+          "name": "Qadsiya"
+        },
+        {
+          "name": "Qortuba"
+        },
+        {
+          "name": "Rawda"
+        },
+        {
+          "name": "Shamiya"
+        },
+        {
+          "name": "Sharq"
+        },
+        {
+          "name": "Shuwaikh"
+        },
+        {
+          "name": "Shuwaikh Industrial Area"
+        },
+        {
+          "name": "Shuwaikh Port"
+        },
+        {
+          "name": "Sulaibikhat"
+        },
+        {
+          "name": "Qairawan",
+          "alternateName": [
+            "Qairawaan"
+          ]
+        },
+        {
+          "name": "Surra"
+        },
+        {
+          "name": "Ouha Island"
+        },
+        {
+          "name": "Miskan Island"
+        },
+        {
+          "name": "Umm an Namil Island"
+        },
+        {
+          "name": "Yarmouk"
+        },
+        {
+          "name": "Kuwait City"
+        }
+      ]
+    },
+    {
+      "name": "Hawalli",
+      "areas": [
+        {
+          "name": "Bayan"
+        },
+        {
+          "name": "Jabriya"
+        },
+        {
+          "name": "Rumaithiya"
+        },
+        {
+          "name": "Salam"
+        },
+        {
+          "name": "Salwa"
+        },
+        {
+          "name": "Al-Bidaa"
+        },
+        {
+          "name": "Anjafa"
+        },
+        {
+          "name": "Hawally",
+          "alternateName": [
+            "Hawalli"
+          ]
+        },
+        {
+          "name": "Hitteen",
+          "alternateName": [
+            "Hateen",
+            "Hittin"
+          ]
+        },
+        {
+          "name": "Mishref",
+          "alternateName": [
+            "Mishrif"
+          ]
+        },
+        {
+          "name": "Mubarak Al-Abdullah"
+        },
+        {
+          "name": "Salmiya"
+        },
+        {
+          "name": "Shaab"
+        },
+        {
+          "name": "Shuhada"
+        },
+        {
+          "name": "Siddiq",
+          "alternateName": [
+            "Al-Siddiq",
+            "Siddeeq"
+          ]
+        },
+        {
+          "name": "Ministries Area"
+        },
+        {
+          "name": "Zahra"
+        }
+      ]
+    },
+    {
+      "name": "Mubarak Al-Kabeer",
+      "areas": [
+        {
+          "name": "Abu Al Hasaniya"
+        },
+        {
+          "name": "Abu Fatira",
+          "alternateName": [
+            "Abu Ftaira"
+          ]
+        },
+        {
+          "name": "Adan",
+          "alternateName": [
+            "Al-Adan"
+          ]
+        },
+        {
+          "name": "Qurain",
+          "alternateName": [
+            "Al Qurain"
+          ]
+        },
+        {
+          "name": "Qusour",
+          "alternateName": [
+            "Al-Qusour"
+          ]
+        },
+        {
+          "name": "Funaitees",
+          "alternateName": [
+            "Al-Fnaitees"
+          ]
+        },
+        {
+          "name": "Messila"
+        },
+        {
+          "name": "Masayel",
+          "alternateName": [
+            "Al-Masayel"
+          ]
+        },
+        {
+          "name": "Mubarak Al-Kabeer",
+          "alternateName": [
+            "Mubarak Al-Kabir"
+          ]
+        },
+        {
+          "name": "Sabah Al-Salem"
+        },
+        {
+          "name": "Subhan Industrial"
+        },
+        {
+          "name": "Wista"
+        },
+        {
+          "name": "West Abu Ftaira Herafiya"
+        }
+      ]
+    },
+    {
+      "name": "Ahmadi",
+      "areas": [
+        {
+          "name": "Abu Halifa"
+        },
+        {
+          "name": "Mina Abdullah",
+          "alternateName": [
+            "Mina Abdulla"
+          ]
+        },
+        {
+          "name": "Ahmadi"
+        },
+        {
+          "name": "Ali Sabah Al-Salem"
+        },
+        {
+          "name": "Egaila"
+        },
+        {
+          "name": "Bar Al-Ahmadi"
+        },
+        {
+          "name": "Bnaider"
+        },
+        {
+          "name": "Dhaher"
+        },
+        {
+          "name": "Fahaheel"
+        },
+        {
+          "name": "Fahad Al-Ahmad"
+        },
+        {
+          "name": "Hadiya"
+        },
+        {
+          "name": "Jaber Al-Ali"
+        },
+        {
+          "name": "Julaiaa",
+          "alternateName": [
+            "Al-Julaia'a"
+          ]
+        },
+        {
+          "name": "Khairan",
+          "alternateName": [
+            "Khiran",
+            "Al Khiran"
+          ]
+        },
+        {
+          "name": "Mahboula"
+        },
+        {
+          "name": "Mangaf"
+        },
+        {
+          "name": "Magwa"
+        },
+        {
+          "name": "Wafra Residential"
+        },
+        {
+          "name": "Nuwaiseeb",
+          "alternateName": [
+            "Al-Nuwaiseeb"
+          ]
+        },
+        {
+          "name": "Riqqa"
+        },
+        {
+          "name": "Sabah Al-Ahmad",
+          "alternateName": [
+            "Sabah Al Ahmad"
+          ]
+        },
+        {
+          "name": "Sabah Al-Ahmad Sea City",
+          "alternateName": [
+            "Sabah Al Ahmad Sea City"
+          ]
+        },
+        {
+          "name": "Sabahiya"
+        },
+        {
+          "name": "Shuaiba Industrial"
+        },
+        {
+          "name": "South Sabahiya"
+        },
+        {
+          "name": "Wafra"
+        },
+        {
+          "name": "Zoor",
+          "alternateName": [
+            "Al-Zour"
+          ]
+        },
+        {
+          "name": "Fintas"
+        },
+        {
+          "name": "Shadadiya Industrial"
+        },
+        {
+          "name": "South Sabah Al-Ahmad"
+        }
+      ]
+    },
+    {
+      "name": "Farwaniya",
+      "areas": [
+        {
+          "name": "Abdullah Al-Mubarak"
+        },
+        {
+          "name": "Airport District"
+        },
+        {
+          "name": "Andalus"
+        },
+        {
+          "name": "Ardiya"
+        },
+        {
+          "name": "Ardiya Herafiya"
+        },
+        {
+          "name": "Ishbiliya",
+          "alternateName": [
+            "Ishbiliyah"
+          ]
+        },
+        {
+          "name": "Dajeej"
+        },
+        {
+          "name": "Farwaniya"
+        },
+        {
+          "name": "Firdous",
+          "alternateName": [
+            "Ferdous"
+          ]
+        },
+        {
+          "name": "Jleeb Al-Shuyoukh",
+          "alternateName": [
+            "Jleeb Al-Shuyukh",
+            "Abbasiyah"
+          ]
+        },
+        {
+          "name": "Khaitan"
+        },
+        {
+          "name": "Omariya"
+        },
+        {
+          "name": "Rabiya"
+        },
+        {
+          "name": "Rai"
+        },
+        {
+          "name": "Riggae",
+          "alternateName": [
+            "Al-Riggai",
+            "Rigai"
+          ]
+        },
+        {
+          "name": "Rehab"
+        },
+        {
+          "name": "Sabah Al-Nasser"
+        },
+        {
+          "name": "Sabah Al-Salem University"
+        },
+        {
+          "name": "West Abdullah Al-Mubarak"
+        },
+        {
+          "name": "South Abdullah Al-Mubarak"
+        },
+        {
+          "name": "Sulaibiya Industrial"
+        }
+      ]
+    },
+    {
+      "name": "Jahra",
+      "areas": [
+        {
+          "name": "Abdali"
+        },
+        {
+          "name": "Mutlaa",
+          "alternateName": [
+            "Al-Mutlaa",
+            "Al Mutla"
+          ]
+        },
+        {
+          "name": "Kazma"
+        },
+        {
+          "name": "Bahra"
+        },
+        {
+          "name": "Kabd"
+        },
+        {
+          "name": "Sheqaya"
+        },
+        {
+          "name": "Al-Nahda"
+        },
+        {
+          "name": "Amghara Industrial"
+        },
+        {
+          "name": "Bar Al-Jahra"
+        },
+        {
+          "name": "Jahra"
+        },
+        {
+          "name": "Jahra Industrial Herafiya"
+        },
+        {
+          "name": "Naeem"
+        },
+        {
+          "name": "Naseem",
+          "alternateName": [
+            "Nasseem"
+          ]
+        },
+        {
+          "name": "Oyoun"
+        },
+        {
+          "name": "Qasr"
+        },
+        {
+          "name": "Jaber Al-Ahmad"
+        },
+        {
+          "name": "Saad Al-Abdullah",
+          "alternateName": [
+            "Saad Al Abdullah"
+          ]
+        },
+        {
+          "name": "Salmi"
+        },
+        {
+          "name": "Subiya",
+          "alternateName": [
+            "Subiyah"
+          ]
+        },
+        {
+          "name": "Sulaibiya"
+        },
+        {
+          "name": "Sulaibiya Agricultural Area"
+        },
+        {
+          "name": "Sulaibiya Residential"
+        },
+        {
+          "name": "Taima"
+        },
+        {
+          "name": "Waha"
+        },
+        {
+          "name": "Bubiyan Island"
+        },
+        {
+          "name": "Warbah Island"
+        },
+        {
+          "name": "South Saad Al-Abdullah"
+        }
+      ]
+    }
+  ]
+}
